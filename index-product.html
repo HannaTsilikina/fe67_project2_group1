@@ -13,16 +13,66 @@
 </head>
 
 <body>
-    <header>
+    <header>    
         <div class="header-container">
             <div class="logo">
                 <a class="logo__header" href="./index-main.html">
                     <img src="./assest/vectors/logo.svg" alt="logo">
                 </a>
             </div>
-            <nav class="header__nav">
-                <ul class="nav__pages">
-                    <li class="active-li">
+<nav class="header__nav">
+<ul class="nav__pages">
+<li>
+    <a href="./index-product.html">Shop</a>
+</li>
+<li>
+    <a href="#">Blog</a>
+</li>
+<li>
+    <a href="#">Our Story</a>
+</li>
+<li>
+    <div class="line">
+
+    </div>
+</li>
+</ul>
+<ul class="nav__product">
+    <li><a href="#">
+        <img src="./assest/vectors/search.svg" alt="search">
+    </a></li>
+    <li><a href="./index-cart.html">
+        <img src="./assest/vectors/shopping-cart.svg" alt="cart">
+    </a></li>
+    <li><a href="#">
+        <img src="./assest/vectors/person.svg" alt="person">
+    </a></li>
+</ul>
+</nav>
+
+        </div>
+        <div class="header-mobile">
+            <div class="header-mobile__container">
+            <div class="mobile-logo">
+                <a class="logo__header" href="./index-main.html">
+                    <img src="./assest/vectors/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="header-mobile__main">
+            <a href="./index-cart.html"><div class="header__bucket">
+                <img src="./assest/vectors/shopping-cart.svg" alt="shopping-cart">
+                <div class="shopping-cart__item">1</div>
+            </div>
+        </a>
+            <div class="header__burger">
+                
+                <nav class="header-mobile__nav">
+                    <input type="checkbox" id="burger">
+                    <label for="burger">
+                        <img src="./assest/vectors/burger.svg" alt="burger">
+                    </label>
+                    <ul class="nav-mobile__pages">
+                    <li>
                         <a href="./index-product.html">Shop</a>
                     </li>
                     <li>
@@ -31,25 +81,20 @@
                     <li>
                         <a href="#">Our Story</a>
                     </li>
-                    <li>
-                        <div class="line">
-
-                        </div>
-                    </li>
-                </ul>
-                <ul class="nav__product">
-                    <li><a href="#">
-                            <img src="./assest/vectors/search.svg" alt="search">
-                        </a></li>
-                    <li><a href="./index-cart.html">
-                            <img src="./assest/vectors/shopping-cart.svg" alt="cart">
-                        </a></li>
-                    <li><a href="#">
-                            <img src="./assest/vectors/person.svg" alt="person">
-                        </a></li>
-                </ul>
-            </nav>
-
+                    </ul>
+                    </nav>
+            </div>
+        </div>
+    </div>
+    <form class="header-mobile__search">
+        <img src="./assest/vectors/search.svg" alt="search">
+        <input class="header-mobile__input" type="search" placeholder="Search">
+    </form>
+    <div class="header-mobile__access">
+        <a  class="header-mobile-access__item"  href="#">Earring</a>
+        <a class="header-mobile-access__item"  href="#">Necklace</a>
+        <a class="header-mobile-access__item"  href="#">Pin</a>
+    </div>
         </div>
     </header>
     <main>
