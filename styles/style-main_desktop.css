@@ -296,4 +296,7 @@
         align-items: center;
         gap: 15px;
     }
+    .footer__checkbox {
+        display: none;
+    }
 }
