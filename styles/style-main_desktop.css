@@ -112,7 +112,10 @@
         flex-direction: column;
         position: absolute;
         left: 5%;
-        align-self: start;
+    }
+
+    .bunner-container__h2 {
+        margin-top: -1em;
     }
 
     .button__bunner-container {
