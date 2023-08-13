@@ -92,12 +92,18 @@
 
     .bunner-container {
         display: flex;
-        height: 100%;
+        width: 100%;
         flex-direction: column;
         position: relative;
         color: white;
         align-content: center;
         justify-content: center;
+    }
+
+    .bunner-container__background {
+        background-size: no-repeat;
+        background-position: center;
+        background-size: contain;
     }
 
     .bunner-container__text {
