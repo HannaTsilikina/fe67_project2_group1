@@ -67,6 +67,124 @@
 
     /* end of header style's*/
 
+    /* Lera start */
+
+    .shoppingCart-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 9fr;
+        width: 1248px;
+        height: 919px;
+        margin: auto;
+        border: 1px solid black;
+     }
+     
+     .shoppingCart-text {
+        font-size: 33px;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+     }
+     
+     .shoppingCart_twoSides-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 100%;
+        border: 1px solid black;
+     }
+     
+     .twoSides_leftSide-container,
+     .twoSides_rightSide-container {
+        width: 100%;
+        border: 1px solid black;
+     }
+     
+     .twoSides_rightSide-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr 1fr 1fr;
+     }
+     
+     .rightSide_title {
+        grid-template-areas: 1/1/2/3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border: 1px solid black;
+     }
+     
+     
+     
+     .rightSide__sides {
+        grid-template-areas: 2/1/3/2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3fr 1fr;
+        
+     }
+     
+     .rightSide_leftRow {
+        grid-template-areas: 1/1/2/2;
+        width: 100%;
+        
+        border: 1px solid black;
+     }
+     
+     .rightSide_rightRow {
+        grid-template-areas: 1/2/2/3;
+        width: 100%;
+       
+        border: 1px solid black;
+     }
+     
+     .rightSide_total_line {
+        grid-template-areas: 2/1/3/3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     
+     .rightSide_total {
+        grid-template-areas: 3/1/4/3;
+        display: flex;
+        justify-content: space-between;
+     }
+     
+     .rightRow_ProceedToCheckoutButton {
+        grid-template-areas: 4/1/5/3;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+     }
+     
+     
+     
+     .countrySelect_country,
+     .citySelect_city,
+     .postCodeSelect_postCode {
+     padding: 0;
+     border: none;
+     background: none;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     }
+     
+     .leftRow_subtotal,
+     .leftRow_shipping,
+     .leftRow-cost,
+     .leftRow_text  {
+        font-size: 16px;
+        font-weight: 400;
+     }
+     
+     .rightRow_total_line {
+        margin: auto;
+     }
+     
+
+    /* Lera stop */
 
     /* footer style's*/
     footer {
