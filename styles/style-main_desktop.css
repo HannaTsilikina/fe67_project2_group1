@@ -65,11 +65,6 @@
     display: inline;
   }
 
-  .section__container {
-    display: inline;
-    /* width: 100%; */
-  }
-
   .section__head {
     display: flex;
     align-items: center;
@@ -168,7 +163,7 @@
     gap: 1rem;
   }
 
-  /* ens of section shop style's */
+  /* end of section shop style's */
 
   /* footer style's*/
   footer {
