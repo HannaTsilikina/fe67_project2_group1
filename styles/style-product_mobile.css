@@ -137,7 +137,11 @@ line-height: 27px;
 text-transform: capitalize;
 margin: 0;
 }
-
+.mobile-title-share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .product-main__rating {
     display: none;
 }
@@ -276,12 +280,8 @@ display: none;
  .section {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20%;
-  }
-
-  .section__container {
-    display: inline;
-    /* width: 100%; */
+    gap: 10%;
+    padding: 5% 16px 2% 16px;
   }
 
   .section__head {
@@ -292,30 +292,26 @@ display: none;
   }
 
   .section__head-title {
-    font-size: 26px;
-    font-family: DM sans;
-    font-weight: 500;
-    line-height: 43px;
+    color: #000;
+font-family: DM Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+margin: 0;
   }
 
   .section__head-view {
-    font-size: 15px;
-    font-family: DM sans;
-    font-weight: 500;
-    line-height: 26px;
-    color: rgba(161, 138, 104, 1);
-    text-decoration: none;
+    display: none;
   }
 
-  .section__head-view:hover {
-    text-decoration: underline;
-  }
 
   .section__shop {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 2rem;
+    display: flex; 
+    flex-wrap: nowrap;
+    overflow: auto;
+    gap: 10px;
+    padding-bottom: 10%;
   }
 
   .section__shop-img {
@@ -323,9 +319,9 @@ display: none;
   }
 
   .section__shop-product {
-    font-family: DM sans;
+       font-family: DM sans;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
   }
@@ -337,29 +333,47 @@ display: none;
   .section__shop-price {
     font-family: DM Sans;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 12px;
     color: rgba(161, 138, 104, 1);
   }
  
   .section__shop-hal-earrings {
-    display: flex;
+               display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 10px;
   }
 
   .section__shop-kaede-pin-set {
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 10px;
   }
 
   .section__shop-plaine-necklace {
-    display: flex;
+
+        display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 10px;
+  }
+
+  .continue-shopping {
+    background-color: #FFF;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  #A18A68;
+font-family: DM Sans;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
   }
   /* ens of section shop style's */
 
