@@ -86,7 +86,7 @@
     .line {
         border: none;
         height: 1px;
-        width: 50%;
+        width: 100%;
         background-color: #D8D8D8;
     }
 
@@ -95,13 +95,14 @@
     .main-shopping-cart__product-Kaede {
         display: flex;
         flex-direction: row;
+        padding: 5% 0% 7% 0%;
     }
 
     .main-shopping-cart__product-Lira img,
     .main-shopping-cart__product-Ollie img,
     .main-shopping-cart__product-Kaede img {
-        width: 12em;
-        height: 12em;
+        width: 9em;
+        height: 9em;
     }
 
     .h3-black {
@@ -111,6 +112,9 @@
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
+        padding-left: 3em;
+        margin-top: 0;
+
     }
 
     .h5-gold {
@@ -120,7 +124,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: 27px;
-        margin: 0;
+        margin: 0 1em 0 1em;
+        padding-left: 3em;
     }
 
     .h5-gray {
@@ -130,7 +135,34 @@
         font-style: normal;
         font-weight: 400;
         line-height: 27px;
-        margin: 0;
+        margin: 1em 1em 0 1em;
+        padding-left: 3em;
+    }
+
+    button {
+        background: #EFEFEF;
+        border-radius: 4px;
+
+    }
+
+    input {
+        background: #EFEFEF;
+        border-radius: 4px;
+
+    }
+
+    .main-shopping-cart__product-button {
+        padding-left: 8em;
+    }
+
+    .main-shopping-cart__button-button {
+        border: 1px solid #707070;
+    }
+
+    .main-shopping-cart__button {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
     }
 
     .button__white {
@@ -144,6 +176,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        padding: 1em 0.5em 1em 0.5em;
     }
 
     .button__white:active {
@@ -162,6 +195,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        padding: 1em 0.5em 1em 0.5em;
     }
 
     .button__black:active {
