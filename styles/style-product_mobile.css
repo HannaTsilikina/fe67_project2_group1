@@ -75,55 +75,307 @@ display: none;
     display: block;
   }
  .header-mobile__search{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 4px;
-background-color:  #EFEFEF;
-padding: 6px 10px;
-box-sizing: border-box;
- }
- .header-mobile__search img { 
-    width: 6%;
-    max-width: 30px;
-    padding-right: 8px;
+   display: none;
  }
 
-.header-mobile__input {
-    border: none;
-    background: none;
-    color:  #707070;
-font-family: DM Sans;
-font-size: 0.75rem;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; 
-}
 .header-mobile__access {
-    padding: 16px 0px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 2%;
-    flex-wrap: nowrap;
-    overflow: auto;
+   display: none;
 }
-.header-mobile-access__item {
-    border-radius: 4px;
-border: 1px solid #D8D8D8;
-color: var(--light-colors-black-light, #000);
+
+/*  styles of product card*/
+.product-card {
+    padding: 0px 16px;
+}
+.product-container__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}
+.product-main__small-img {
+   display: none;
+}
+
+.product-main__big-img img {
+    width: 100%;
+    }
+
+.product-main__description {
+    max-height: 60vh;
+    display: grid;
+    grid-template-rows: 0.5fr 0.2fr 1fr;
+}
+@media screen and (min-width: 500px) {
+    .product-main__description {
+        max-height: 60vh;
+        display: grid;
+        gap: 15px;
+        grid-template-rows: 0.5fr 0.4fr 1fr;
+    }
+    
+}
+.product-main__title {
+    grid-row: 1/2;
+}
+h2 {
+    color:  #000;
+font-family: DM Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin: 0;
+}
+.h4-gold {
+      color: #A18A68;
+font-family: DM Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; 
+text-transform: capitalize;
+margin: 0;
+}
+.mobile-title-share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-main__rating {
+    display: none;
+}
+
+.h5-gray {
+    color:  #707070;
+    font-family: DM Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+margin: 0;
+}
+.product-main__text {
+    padding: 14px 0px;
+    border-bottom: 1px solid #707070;
+   grid-row: 3/4;
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+   align-items: flex-start;
+    
+}
+.text-hidden {
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+     -webkit-line-clamp: 4;
+     -webkit-box-orient: vertical;
+}
+.button__view-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    border: none;
+    color:  #A18A68;
+    background: #FFF;
 font-family: DM Sans;
 font-size: 0.75rem;
 font-style: normal;
 font-weight: 400;
 line-height: 20px; 
-text-decoration: none;
-padding: 10px 15%;
 }
-.header-mobile-access__item:active {
+.product-main__quantity {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+       
+}
+.product-main__number {
+    display: none;
+}
+.number__add {
+    border: none;
+
+}
+.number__add:focus {
+    border: 1px solid #707070;
+}
+.number__add:active, .button__card:active {
+    background-color: #707070;
+}
+.button__card {
+    
+    width: 100%;
+    border-radius: 4px;
+border: 1px solid  #000;
+background-color: #FFF;
+color:  #000;
+font-family: DM Sans;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.button__card:focus {
 text-decoration: underline;
 }
+
+.product-main__wishlist {
+    display: none;
+}
+.product-main__sku, .product-main__сategories {
+    display: none
+}
+h5 {
+    color: #000;
+font-family: DM Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+margin: 0;
+}
+
+.product-description__titles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 0px;
+    border-bottom: 1px solid #707070;
+}
+.arrow-bottom__mobile {
+justify-self: end;
+}
+.h3-active, .h3-inactive {
+    color:  #000;
+font-family: DM Sans;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+margin: 0;
+justify-self: self-start;
+}
+.h3-active:active {
+    text-decoration: underline;
+}
+.h3-inactive:active {
+    text-decoration: underline;
+}
+.product-main__text-hidden {
+display: none;
+}
+/* end - styles of product card*/
+
+
+ /* section shop style's */
+
+ .section {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding: 5% 16px 2% 16px;
+  }
+
+  .section__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4%;
+  }
+
+  .section__head-title {
+    color: #000;
+font-family: DM Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+margin: 0;
+  }
+
+  .section__head-view {
+    display: none;
+  }
+
+
+  .section__shop {
+    display: flex; 
+    flex-wrap: nowrap;
+    overflow: auto;
+    gap: 10px;
+    padding-bottom: 10%;
+  }
+
+  .section__shop-img {
+    width: 100%;
+  }
+
+  .section__shop-product {
+       font-family: DM sans;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .section__shop-product:hover {
+    text-decoration: underline;
+  }
+
+  .section__shop-price {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(161, 138, 104, 1);
+  }
+ 
+  .section__shop-hal-earrings {
+               display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .section__shop-kaede-pin-set {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .section__shop-plaine-necklace {
+
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .continue-shopping {
+    background-color: #FFF;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  #A18A68;
+font-family: DM Sans;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+  }
+  /* ens of section shop style's */
 
 
 
@@ -253,4 +505,3 @@ line-height: 20px;
         align-items: center;
         gap: 15px;
     }
-}
