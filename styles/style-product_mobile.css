@@ -75,55 +75,325 @@ display: none;
     display: block;
   }
  .header-mobile__search{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 4px;
-background-color:  #EFEFEF;
-padding: 6px 10px;
-box-sizing: border-box;
- }
- .header-mobile__search img { 
-    width: 6%;
-    max-width: 30px;
-    padding-right: 8px;
+   display: none;
  }
 
-.header-mobile__input {
-    border: none;
-    background: none;
-    color:  #707070;
+.header-mobile__access {
+   display: none;
+}
+
+/*  styles of product card*/
+.product-card {
+    padding: 0px 16px;
+}
+.product-container-main {
+    padding: 10% 0%;
+}
+.product-container__main {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 1fr;
+    gap: 20px;
+}
+@media screen and (max-width: 970px) {
+    .product-container__main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+.product-main__small-img {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (max-width: 970px) {
+    .product-main__small-img {
+        display: none;
+    }
+}
+.product-main__small-img img, .product-main__big-img img {
+    width: 100%;
+    }
+.product-main__big-img {
+    grid-column: 2/3;
+}
+@media screen and (max-width: 970px) {
+    .product-main__big-img {
+        grid-column: 1/2;
+    }
+}
+.product-main__description {
+    grid-column: 3/4;
+}
+@media screen and (max-width: 970px) {
+    .product-main__description {
+        grid-column: 2/3;
+    }
+}
+h2 {
+    color:  #000;
 font-family: DM Sans;
-font-size: 0.75rem;
+font-size: 1.625rem;
 font-style: normal;
 font-weight: 400;
-line-height: 20px; 
+line-height: 35px; 
+margin: 0;
 }
-.header-mobile__access {
-    padding: 16px 0px;
+.h4-gold {
+    color: #A18A68;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+text-transform: capitalize;
+margin: 0;
+}
+.h4-earrings {
+    padding: 5% 0% 15% 0%;
+}
+@media screen and (max-width: 1100px) {
+    .h4-earrings {
+        padding: 2% 0% 5% 0%;
+    }
+}
+
+.product-main__rating {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 2%;
-    flex-wrap: nowrap;
-    overflow: auto;
 }
-.header-mobile-access__item {
-    border-radius: 4px;
-border: 1px solid #D8D8D8;
-color: var(--light-colors-black-light, #000);
+.rating__stars {
+    display: flex;
+    gap: 5px;
+    padding-right: 20px;
+}
+.h5-gray {
+    color:  #707070;
 font-family: DM Sans;
-font-size: 0.75rem;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
-line-height: 20px; 
-text-decoration: none;
-padding: 10px 15%;
+line-height: 27px; 
+margin: 0;
 }
-.header-mobile-access__item:active {
+.product-main__text {
+    padding: 4% 0% 7% 0%;
+}
+.product-main__quantity {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-bottom: 12%;
+}
+@media screen and (max-width: 970px) {
+    .product-main__quantity {
+     padding-bottom: 3% ;
+    }
+}
+.product-main__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 4px;
+background:  #EFEFEF;
+padding: 16px 13px;
+}
+.number__add {
+    border: none;
+
+}
+.number__add:focus {
+    border: 1px solid #707070;
+}
+.number__add:active, .button__card:active {
+    background-color: #707070;
+}
+.button__card {
+    width: 100%;
+    border-radius: 4px;
+border: 1px solid  #000;
+background-color: #FFF;
+color:  #000;
+font-family: DM Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.button__card:focus {
 text-decoration: underline;
 }
+
+.product-main__wishlist {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-bottom: 7%;
+}
+@media screen and (max-width: 970px) {
+    .product-main__wishlist {
+     padding-bottom: 2% ;
+    }
+}
+.product-main__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.product-main__social a img {
+    margin-top: 3px;
+}
+.product-main__sku, .product-main__сategories {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 6px;
+}
+h5 {
+    color: #000;
+font-family: DM Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+margin: 0;
+}
+
+.product-description__titles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10%;
+}
+.h3-active {
+    color:  #000;
+font-family: DM Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-bottom: 20px;
+border-bottom: 1px solid #000;
+margin: 0;
+}
+.h3-active:active {
+    text-decoration: underline;
+}
+
+.h3-inactive {
+    color:  #707070;
+font-family: DM Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-bottom: 20px;
+margin: 0;
+}
+
+.h3-inactive:active {
+    text-decoration: underline;
+}
+/* end - styles of product card*/
+
+
+ /* section shop style's */
+
+ .section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20%;
+  }
+
+  .section__container {
+    display: inline;
+    /* width: 100%; */
+  }
+
+  .section__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4%;
+  }
+
+  .section__head-title {
+    font-size: 26px;
+    font-family: DM sans;
+    font-weight: 500;
+    line-height: 43px;
+  }
+
+  .section__head-view {
+    font-size: 15px;
+    font-family: DM sans;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(161, 138, 104, 1);
+    text-decoration: none;
+  }
+
+  .section__head-view:hover {
+    text-decoration: underline;
+  }
+
+  .section__shop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+  }
+
+  .section__shop-img {
+    width: 100%;
+  }
+
+  .section__shop-product {
+    font-family: DM sans;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .section__shop-product:hover {
+    text-decoration: underline;
+  }
+
+  .section__shop-price {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(161, 138, 104, 1);
+  }
+ 
+  .section__shop-hal-earrings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .section__shop-kaede-pin-set {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .section__shop-plaine-necklace {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  /* ens of section shop style's */
 
 
 
