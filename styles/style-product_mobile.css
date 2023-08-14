@@ -114,7 +114,7 @@ display: none;
         grid-template-rows: 0.5fr 0.4fr 1fr;
     }
     
-}
+
 .product-main__title {
     grid-row: 1/2;
 }
