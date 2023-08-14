@@ -104,7 +104,34 @@
         height: 12em;
     }
 
+    .h3-black {
+        color: #000;
+        font-family: DM Sans;
+        font-size: 1.3em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
 
+    .h5-gold {
+        color: #A18A68;
+        font-family: DM Sans;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        margin: 0;
+    }
+
+    .h5-gray {
+        color: #707070;
+        font-family: DM Sans;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        margin: 0;
+    }
 
     .button__white {
         width: 40%;
@@ -119,8 +146,9 @@
         line-height: normal;
     }
 
-    .button__white {
-        text-decoration: underline;
+    .button__white:active {
+        background-color: #000;
+        color: #FFF;
     }
 
     .button__black {
@@ -136,8 +164,9 @@
         line-height: normal;
     }
 
-    .button__black {
-        text-decoration: underline;
+    .button__black:active {
+        background-color: #fff;
+        color: #000;
     }
 
     /* footer style's*/
