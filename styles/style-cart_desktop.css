@@ -75,8 +75,8 @@
 
     .main-shopping-cart__container {
         display: grid;
-        grid-column: 1fr 1fr;
-        grid-row: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 
     .main-shopping-cart__container-product {
@@ -89,6 +89,22 @@
         width: 50%;
         background-color: #D8D8D8;
     }
+
+    .main-shopping-cart__product-Lira,
+    .main-shopping-cart__product-Ollie,
+    .main-shopping-cart__product-Kaede {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-shopping-cart__product-Lira img,
+    .main-shopping-cart__product-Ollie img,
+    .main-shopping-cart__product-Kaede img {
+        width: 12em;
+        height: 12em;
+    }
+
+
 
     .button__white {
         width: 40%;
