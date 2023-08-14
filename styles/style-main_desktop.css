@@ -7,7 +7,7 @@
     }
 
     header {
-       /* border-bottom: 1px solid #D8D8D8;*/
+        /* border-bottom: 1px solid #D8D8D8;*/
         padding-bottom: 17px;
         padding-top: 5vh;
     }
@@ -93,17 +93,24 @@
     .bunner-container {
         display: flex;
         width: 100%;
+        height: 52vw;
         flex-direction: column;
         position: relative;
         color: white;
         align-items: center;
         justify-content: center;
+        background-image: url(../assest/images/main-image.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+        border-radius: 0.5em;
     }
 
     .bunner-container__background {
-        width: 100%;
+        /* width: 100%;
         background-position: center;
-        background-size: contain;
+        background-size: contain; */
+        display: none;
     }
 
     .bunner-container__text {
@@ -181,116 +188,116 @@
 
     /* section shop style's */
 
-  .section {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20%;
-  }
+    .section {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20%;
+    }
 
-  .section__container {
-    display: inline;
-    /* width: 100%; */
-  }
+    .section__container {
+        display: inline;
+        /* width: 100%; */
+    }
 
-  .section__head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+    .section__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-  .section__head-title {
-    font-size: 26px;
-    font-family: DM sans;
-    font-weight: 500;
-    line-height: 43px;
-  }
+    .section__head-title {
+        font-size: 26px;
+        font-family: DM sans;
+        font-weight: 500;
+        line-height: 43px;
+    }
 
-  .section__head-view {
-    font-size: 15px;
-    font-family: DM sans;
-    font-weight: 500;
-    line-height: 26px;
-    color: rgba(161, 138, 104, 1);
-    text-decoration: none;
-  }
+    .section__head-view {
+        font-size: 15px;
+        font-family: DM sans;
+        font-weight: 500;
+        line-height: 26px;
+        color: rgba(161, 138, 104, 1);
+        text-decoration: none;
+    }
 
-  .section__head-view:hover {
-    text-decoration: underline;
-  }
+    .section__head-view:hover {
+        text-decoration: underline;
+    }
 
-  .section__shop {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-  }
+    .section__shop {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem;
+    }
 
-  .section__shop-img {
-    width: 100%;
-  }
+    .section__shop-img {
+        width: 100%;
+    }
 
-  .section__shop-product {
-    font-family: DM sans;
-    font-weight: 400;
-    font-size: 15px;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 1);
-  }
+    .section__shop-product {
+        font-family: DM sans;
+        font-weight: 400;
+        font-size: 15px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 1);
+    }
 
-  .section__shop-product:hover {
-    text-decoration: underline;
-  }
+    .section__shop-product:hover {
+        text-decoration: underline;
+    }
 
-  .section__shop-price {
-    font-family: DM Sans;
-    font-weight: 500;
-    font-size: 13px;
-    color: rgba(161, 138, 104, 1);
-  }
+    .section__shop-price {
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 13px;
+        color: rgba(161, 138, 104, 1);
+    }
 
-  .section__shop-lira-earrings {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+    .section__shop-lira-earrings {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 
-  .section__shop-hal-earrings {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+    .section__shop-hal-earrings {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 
-  .section__shop-kaede-pin-set {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+    .section__shop-kaede-pin-set {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 
-  .section__shop-hair-pin-set {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+    .section__shop-hair-pin-set {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 
-  .section__shop-plaine-necklace {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+    .section__shop-plaine-necklace {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 
-  .section__shop-yuki-hair-set {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+    .section__shop-yuki-hair-set {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 
-  /* ens of section shop style's */
+    /* ens of section shop style's */
 
     /* footer style's*/
     footer {
@@ -409,6 +416,7 @@
         align-items: center;
         gap: 15px;
     }
+
     .footer__checkbox {
         display: none;
     }

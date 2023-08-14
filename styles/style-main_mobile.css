@@ -166,19 +166,18 @@
 
     .bunner-container {
         display: flex;
-        /* width: 40vh; */
-        height: 100vw;
+        height: 90vw;
         flex-direction: column;
         position: relative;
         color: white;
         align-items: center;
         justify-content: end;
-        padding: 0px 16px;
         background-image: url(../assest/images/main-image.png);
         background-repeat: no-repeat;
         background-position-x: right;
-        background-position-y: bottom;
         background-size: cover;
+        margin: 0px 16px;
+        border-radius: 0.5em;
     }
 
     .bunner-container__background {
@@ -189,7 +188,7 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        left: 5%;
+        left: 8%;
         padding-bottom: 10%;
     }
 
