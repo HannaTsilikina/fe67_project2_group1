@@ -102,6 +102,7 @@
 }
 .product-main__description {
     grid-column: 3/4;
+    display: block;
 }
 @media screen and (max-width: 970px) {
     .product-main__description {
@@ -116,6 +117,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 35px; 
 margin: 0;
+}
+.mobile-title-share {
+    display: block;
 }
 .h4-gold {
     color: #A18A68;
@@ -157,12 +161,15 @@ margin: 0;
 }
 .product-main__text {
     padding: 4% 0% 7% 0%;
+    display: block;
+    border: none;
 }
 .product-main__quantity {
     display: flex;
     justify-content: space-between;
     gap: 15px;
     padding-bottom: 12%;
+   
 }
 @media screen and (max-width: 970px) {
     .product-main__quantity {
@@ -408,6 +415,9 @@ footer {
     gap: 5%;
     }
 }
+.footer__nav {
+    grid-row: 1/2;
+}
 .footer-nav__href {
     display: flex;
     gap: 20px;
@@ -464,6 +474,8 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: 27px; 
+grid-row: 2/3;
+    grid-column: 1/2;
 }
 .footer__privacy a {
     color:  #707070;
@@ -479,6 +491,8 @@ text-decoration: none;
     justify-content: flex-end;
     align-items: center;
     gap: 15px;
+    grid-row: 2/3;
+    grid-column: 2/3;
 }
 .footer__checkbox {
     display: none;
