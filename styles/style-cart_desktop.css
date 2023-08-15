@@ -76,7 +76,7 @@
     h1 {
         color: var(--light-colors-black-light, #000);
         font-family: DM Sans;
-        font-size: 33px;
+        font-size: 2em;
         font-style: normal;
         font-weight: 500;
         line-height: 43px;
