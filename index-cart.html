@@ -102,7 +102,7 @@
 
     <main>
         <div class="main-shopping-cart">
-            <h1> Shopping Cart </h1>
+            <h1 class="main-shopping-cart__h1"> Shopping Cart </h1>
             <div class="main-shopping-cart__container">
                 <div class="main-shopping-cart__container-product">
                     <div class="main-shopping-cart__product-Lira">
@@ -115,11 +115,14 @@
                             <h5 class="h5-gold">$ 20,00</h5>
 
                         </div>
-                        <div class="main-shopping-cart__product-button">
-                            <button class="decrease" type="button"> - </button>
-                            <input type="button" name="field" value="1">
-                            <button class="increase" type="button"> + </button>
+                        <div class="main-shopping-cart__number">
+                            <div class="main-shopping-cart__product-button">
+                                <button class="decrease" type="button"> - </button>
+                                <span class="main-shopping-cart__button-button">3</span>
+                                <button class="increase" type="button"> + </button>
+                            </div>
                         </div>
+                        <button class="main-shopping-cart__close" id="main-shopping-cart_close">✖</button>
                     </div>
                     <div class="line">
 
@@ -133,11 +136,14 @@
                             <h5 class="h5-gray">Black / Medium </h5>
                             <h5 class="h5-gold">$ 20,00</h5>
                         </div>
-                        <div class="main-shopping-cart__product-button">
-                            <button class="decrease" type="button"> - </button>
-                            <span class="main-shopping-cart__button-button">1</span>
-                            <button class="increase" type="button"> + </button>
+                        <div class="main-shopping-cart__number">
+                            <div class="main-shopping-cart__product-button">
+                                <button class="decrease" type="button"> - </button>
+                                <span class="main-shopping-cart__button-button">1</span>
+                                <button class="increase" type="button"> + </button>
+                            </div>
                         </div>
+                        <button class="main-shopping-cart__close" id="main-shopping-cart_close">✖</button>
                     </div>
                     <div class="line">
 
@@ -151,23 +157,34 @@
                             <h5 class="h5-gray">Black / Medium </h5>
                             <h5 class="h5-gold">$ 20,00</h5>
                         </div>
-                        <div class="main-shopping-cart__product-button">
-                            <button class="decrease" type="button"> - </button>
-                            <input type="button" name="field" value="1">
-                            <button class="increase" type="button"> + </button>
+                        <div class="main-shopping-cart__number">
+                            <div class="main-shopping-cart__product-button">
+                                <button class="decrease" type="button"> - </button>
+                                <span class="main-shopping-cart__button-button">1</span>
+                                <button class="increase" type="button"> + </button>
+                            </div>
                         </div>
+                        <button class="main-shopping-cart__close" id="main-shopping-cart_close">✖</button>
                     </div>
                     <div class="line">
 
                     </div>
-                    <div class="main-shopping-cart__button">
-                        <button class="button__white"> UPDATE CART </button>
-                        <button class="button__black"> APPLY COUPON </button>
+                    <div class="main-shopping-cart__form-button">
+                        <div class="main-shopping-cart__button-update">
+                            <button class="button__white"> UPDATE CART </button>
+
+                        </div>
+                        <form>
+                            <input class="main-shopping-cart__form-button-input" type="Coupon"
+                                placeholder="Coupon Code" />
+                            <button class="button__black"> APPLY COUPON </button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
 
     <footer>
         <div class="footer-container">
