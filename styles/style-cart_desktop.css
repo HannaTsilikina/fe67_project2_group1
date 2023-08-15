@@ -73,6 +73,21 @@
 
     /* main of start  style's*/
 
+    h1 {
+        color: var(--light-colors-black-light, #000);
+        font-family: DM Sans;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 43px;
+    }
+
+    .main-shopping-cart__h1 {
+        text-align: center;
+        padding: 1em;
+    }
+
+
     .main-shopping-cart__container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -95,7 +110,7 @@
     .main-shopping-cart__product-Kaede {
         display: flex;
         flex-direction: row;
-        padding: 5% 0% 7% 0%;
+        padding: 4% 0% 6% 0%;
     }
 
     .main-shopping-cart__product-Lira img,
@@ -112,7 +127,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
-        padding-left: 3em;
+        padding-left: 2em;
         margin-top: 0;
 
     }
@@ -124,8 +139,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: 27px;
-        margin: 0 1em 0 1em;
-        padding-left: 3em;
+        margin: 0 1em 0 0;
+        padding-left: 2.6em;
     }
 
     .h5-gray {
@@ -135,38 +150,60 @@
         font-style: normal;
         font-weight: 400;
         line-height: 27px;
-        margin: 1em 1em 0 1em;
-        padding-left: 3em;
+        margin: 0 1em 0 0;
+        padding-left: 2.6em;
     }
 
     button {
         background: #EFEFEF;
-        border-radius: 4px;
+        border: none;
 
     }
 
-    input {
-        background: #EFEFEF;
-        border-radius: 4px;
-
+    .main-shopping-cart__number {
+        margin-left: 8em;
     }
 
     .main-shopping-cart__product-button {
-        padding-left: 8em;
-    }
-
-    .main-shopping-cart__button-button {
-        border: 1px solid #707070;
-    }
-
-    .main-shopping-cart__button {
         display: flex;
-        flex-direction: column;
-        align-items: end;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border-radius: 4px;
+        background: #EFEFEF;
+        color: #000;
+        font-family: DM Sans;
+        padding: 16px 13px;
+    }
+
+
+    [placeholder] {
+        font-family: DM Sans;
+        font-size: 1em;
+    }
+
+    .main-shopping-cart__form-button-input {
+        border-color: #D8D8D8;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 22em;
+        height: 3em;
+        border-width: 1px;
+    }
+
+    .main-shopping-cart__close {
+        display: flex;
+        align-items: flex-start;
+        font-size: 1em;
+        padding-left: 3em;
+        cursor: pointer;
+        color: #000;
+        background-color: white;
     }
 
     .button__white {
-        width: 40%;
+        width: 30%;
         border-radius: 4px;
         border: 1px solid #000;
         background-color: #FFF;
@@ -176,7 +213,10 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        cursor: pointer;
         padding: 1em 0.5em 1em 0.5em;
+        margin-top: 3em;
+        margin-left: 27em;
     }
 
     .button__white:active {
@@ -185,7 +225,7 @@
     }
 
     .button__black {
-        width: 40%;
+        width: 30%;
         border-radius: 4px;
         border: 1px solid #000;
         background-color: #000;
@@ -195,13 +235,20 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        cursor: pointer;
         padding: 1em 0.5em 1em 0.5em;
+        margin-top: 3em;
+        margin-bottom: 8em;
+        margin-left: 4.5em;
+
     }
 
     .button__black:active {
         background-color: #fff;
         color: #000;
     }
+
+    /* main of start  style's*/
 
     /* footer style's*/
     footer {
