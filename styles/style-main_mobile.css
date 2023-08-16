@@ -267,7 +267,6 @@
 
   .section__container {
     display: inline;
-    /* width: 100%; */
   }
 
   .section__head {
@@ -300,6 +299,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      'area1 area2'
+      'area3 area3'
+      'area4 area5';
     gap: 1rem;
   }
 
@@ -321,64 +324,58 @@
 
   .section__shop-price {
     font-family: DM Sans;
-    font-weight: 500;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
     color: rgba(161, 138, 104, 1);
   }
 
   .section__shop-lira-earrings {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+    grid-area: area1;
+    gap: 1rem;
+  }
+
+  .section__shop-ollie-earrings {
+    display: grid;
+    grid-area: area2;
     gap: 1rem;
   }
 
   .section__shop-hal-earrings {
     display: none;
-    /* flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem; */
   }
 
   .section__shop-hal-earrings-big {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     gap: 1rem;
-  }
-
-  .section__shop-ollie-earrings {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
+    background-image: url(../assest/images/product-mobile.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    grid-area: area3;
+    padding-top: 10%;
   }
 
   .section__shop-kaede-pin-set {
     display: none;
-    /* flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem; */
   }
 
   .section__shop-hair-pin-set {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+    grid-area: area4;
     gap: 1rem;
   }
 
   .section__shop-plaine-necklace {
     display: none;
-    /* flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem; */
   }
 
   .section__shop-yuki-hair-set {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+    grid-area: area5;
     gap: 1rem;
   }
   /* end of section shop style's */
