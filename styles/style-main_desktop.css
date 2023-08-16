@@ -264,6 +264,10 @@
     display: none;
   }
 
+  .section__shop-ollie-earrings {
+    display: none;
+  }
+
   .section__shop-kaede-pin-set {
     display: flex;
     flex-direction: column;
