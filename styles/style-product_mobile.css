@@ -216,6 +216,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding: 6px 0px;
 }
 .button__card:focus {
   text-decoration: underline;
