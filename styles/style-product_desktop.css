@@ -271,7 +271,9 @@ margin: 0;
 .h3-active:active {
     text-decoration: underline;
 }
-
+.h3__href {
+    text-decoration: none;
+}
 .h3-inactive {
     color:  #707070;
 font-family: DM Sans;
