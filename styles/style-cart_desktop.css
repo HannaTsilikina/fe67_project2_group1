@@ -164,8 +164,8 @@
 
         display: flex;
         flex-direction: row;
-       justify-content: space-between;
-       align-items: flex-start;
+        justify-content: space-between;
+        align-items: flex-start;
         width: 100%;
         height: 60%;
         gap: 30px;
@@ -306,9 +306,11 @@
     button {
         background: #EFEFEF;
         border: none;
-
     }
 
+    button:active {
+        background-color: #707070;
+    }
 
 
     .main-shopping-cart__product-button {
@@ -327,6 +329,14 @@
     [placeholder] {
         font-family: DM Sans;
         font-size: 1em;
+    }
+
+    .shopping-form__mob {
+        display: none;
+    }
+
+    .button__black__mob {
+        display: none;
     }
 
     .main-shopping-cart__form-button-input {
