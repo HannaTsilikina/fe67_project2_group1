@@ -412,6 +412,7 @@ line-height: 27px; /* 168.75% */
 .main-shopping-cart__container-cart {
 display: flex;
 flex-direction: column;
+gap: 10px;
 border-radius: 4px;
 background:  #EFEFEF;
 padding: 0px 16px;
