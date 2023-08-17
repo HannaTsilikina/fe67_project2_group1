@@ -331,6 +331,14 @@
         font-size: 1em;
     }
 
+    .shopping-form__mob {
+        display: none;
+    }
+
+    .button__black__mob {
+        display: none;
+    }
+
     .main-shopping-cart__form-button-input {
         border-color: #D8D8D8;
         border-top: none;
