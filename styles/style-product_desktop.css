@@ -207,8 +207,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.button__card:focus {
-text-decoration: underline;
+.button__card:active {
+color: #FFF;
+background: #000;
+
 }
 
 .product-main__wishlist {
@@ -420,6 +422,7 @@ footer {
 }
 .footer-nav__href {
     display: flex;
+    flex-direction: row;
     gap: 20px;
     margin: 0;
     padding: 0;

@@ -88,6 +88,7 @@
 
   #burger:checked + label + ul {
     display: block;
+    z-index: 100;
   }
 
   .header-mobile__search {
@@ -341,7 +342,7 @@
   .section__shop-ollie-earrings {
     display: grid;
     grid-area: area2;
-    gap: 0.5rem;
+    
   }
 
   .section__shop-hal-earrings {
