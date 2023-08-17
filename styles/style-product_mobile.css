@@ -218,9 +218,7 @@ h2 {
   line-height: normal;
   padding: 6px 0px;
 }
-.button__card:focus {
-  text-decoration: underline;
-}
+
 
 .product-main__wishlist {
   display: none;
