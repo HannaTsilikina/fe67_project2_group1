@@ -358,13 +358,10 @@
     background-size: cover;
     grid-area: area3;
   }
-
   .section__shop-hal-earrings-big__a {
-    display: flex;
     text-decoration: none;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
   }
   .section__shop-category {
     margin-bottom: 25%;
