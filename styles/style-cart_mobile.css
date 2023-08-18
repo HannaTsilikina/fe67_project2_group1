@@ -365,7 +365,7 @@ line-height: 27px; /* 168.75% */
         padding: 6px;
     }
 
-    .button__black:active {
+    .button__black:active, .button__black__mob:active {
         background-color: #fff;
         color: #000;
     }
