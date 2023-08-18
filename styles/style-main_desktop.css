@@ -117,6 +117,7 @@
   }
 
   .button__bunner-container {
+    text-decoration: none;
     position: relative;
     width: 85%;
     padding: 5% 10%;
