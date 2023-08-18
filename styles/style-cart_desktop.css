@@ -282,7 +282,10 @@
 
 
     }
-
+.h5-gray-width {
+    max-width: 60%;
+    text-align: end;
+}
     .h5-gray__two {
         color: #707070;
         font-family: DM Sans;
