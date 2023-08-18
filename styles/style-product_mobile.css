@@ -239,7 +239,7 @@ h5 {
 
 .product-description__titles {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
   gap: 10px;
@@ -248,6 +248,12 @@ h5 {
 }
 .arrow-bottom__mobile {
   justify-self: end;
+} 
+.h3__href {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .h3-active,
 .h3-inactive {
