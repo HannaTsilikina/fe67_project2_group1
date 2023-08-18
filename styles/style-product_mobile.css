@@ -218,7 +218,11 @@ h2 {
   line-height: normal;
   padding: 6px 0px;
 }
-
+.button__card:active {
+  color: #FFF;
+  background: #000;
+  
+  }
 
 .product-main__wishlist {
   display: none;
