@@ -193,7 +193,7 @@
 .main-shopping-cart__container-product {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
     .main-shopping-cart__h1 {
         text-align: start;
