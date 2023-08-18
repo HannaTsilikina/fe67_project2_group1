@@ -93,7 +93,7 @@
 
     .main-shopping-cart__container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 0.75fr;
         grid-template-rows: 1fr;
         justify-items: center;
         gap: 5%;

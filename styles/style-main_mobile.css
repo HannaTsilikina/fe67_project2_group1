@@ -346,7 +346,7 @@
     display: none;
   }
 
-  .section__shop-hal-earrings-big {
+  .section__shop-hal-earrings-big  {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -357,6 +357,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: area3;
+  }
+
+  .section__shop-hal-earrings-big__a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
   }
   .section__shop-category {
     margin-bottom: 25%;
