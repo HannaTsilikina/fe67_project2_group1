@@ -296,7 +296,8 @@ margin: 0;
  .section {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20%;
+    padding: 0px 0px 20% 0px;
+    
   }
 
   .section__container {
