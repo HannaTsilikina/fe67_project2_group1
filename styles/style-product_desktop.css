@@ -3,6 +3,7 @@
     body {
         margin: 0 auto;
         max-width: 1248px;
+        padding: 0px 16px;
     }
     header {
         border-bottom: 1px solid #D8D8D8;
