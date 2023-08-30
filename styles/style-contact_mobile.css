@@ -117,6 +117,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+    width: 100%;
   }
 
   .header-mobile__access {
