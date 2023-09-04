@@ -70,7 +70,197 @@
 
   /* end of header style's*/
 
+  /* main of start  style's*/
 
+  main {
+    padding-top: 5%;
+  }
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+
+  }
+
+  .main-blog__container {
+    grid-area: 1 / 1 / 2 /2;
+  }
+
+  .main__blog {
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5%;
+  }
+
+  .main__blog-categories__nav {
+    padding-top: 5%;
+  }
+
+
+  [placeholder] {
+    font-family: DM Sans;
+    font-size: 1em;
+  }
+
+  .main-form__search {
+    border-color: #D8D8D8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 70%;
+    height: 2em;
+    border-width: 1px;
+
+  }
+
+  h1 {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    padding-top: 2%;
+  }
+
+  .h3-black {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 10px 0;
+
+  }
+
+  .h4-categories {
+
+    color: #000;
+
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+
+  }
+
+  .h5-gray {
+    color: #707070;
+    font-family: DM Sans;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 0px;
+
+  }
+
+  .categories-nav {
+    padding-left: 0;
+  }
+
+  .categories-nav li,
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #707070;
+    font-family: DM Sans;
+    text-decoration: none;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+
+  }
+
+
+  .read-more {
+    color: #A18A68;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+
+
+  }
+
+  .body-medium {
+    color: #707070;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+  }
+
+  .main-button {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .btn-one {
+    background-color: #000;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border-color: #D8D8D8;
+    cursor: pointer;
+  }
+
+  .btn-one:active {
+    background-color: #fff;
+    color: #000;
+  }
+
+
+  .btn-two {
+    background-color: #FFF;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border-color: #D8D8D8;
+    cursor: pointer;
+  }
+
+  .btn-two:active {
+    background-color: #000;
+    color: #FFF;
+  }
+
+  .btn-next {
+    background-color: #FFF;
+    color: #000;
+    font-family: DM Sans;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    border-color: #D8D8D8;
+    cursor: pointer;
+  }
+
+  .btn-next:active {
+    background-color: #000;
+    color: #FFF;
+  }
+
+  /* main of end  style's*/
 
 
   /* footer style's*/
