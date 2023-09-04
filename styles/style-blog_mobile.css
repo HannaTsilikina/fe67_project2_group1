@@ -86,7 +86,7 @@
     display: none;
   }
 
-  #burger:checked + label + ul {
+  #burger:checked+label+ul {
     display: block;
     z-index: 100;
   }
@@ -124,9 +124,217 @@
     display: none;
   }
 
-  
 
 
+  /* main of start  style's*/
+
+  main {
+    padding: 16px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__blog-categories__nav {
+    padding-top: 2%;
+  }
+
+  .search-form {
+    display: none;
+  }
+
+
+  .main-form__search {
+    border-color: #D8D8D8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 70%;
+    height: 2em;
+    border-width: 1px;
+
+  }
+
+  .main__blog {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__blog-article-one {
+
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+
+  }
+
+  .main__blog-article-two {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+  }
+
+  .main__blog-article-three {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+  }
+
+  .main__blog-article-four {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+  }
+
+  h1 {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    padding-top: 2%;
+  }
+
+  .h3-black {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 10px 0;
+
+  }
+
+  .h4-categories {
+
+    color: #000;
+
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+
+  }
+
+  .h5-gray {
+    color: #707070;
+    font-family: DM Sans;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 0px;
+
+  }
+
+  .categories-nav {
+    padding-left: 0;
+  }
+
+  .categories-nav li,
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #707070;
+    font-family: DM Sans;
+    text-decoration: none;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+
+  }
+
+
+  .read-more {
+    color: #A18A68;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+
+
+  }
+
+  .body-medium {
+    color: #707070;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+  }
+
+  .main-button {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+  }
+
+  .btn-one {
+    background-color: #000;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border-color: #D8D8D8;
+    cursor: pointer;
+  }
+
+  .btn-one:active {
+    background-color: #fff;
+    color: #000;
+  }
+
+
+  .btn-two {
+    background-color: #FFF;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border-color: #D8D8D8;
+    cursor: pointer;
+  }
+
+  .btn-two:active {
+    background-color: #000;
+    color: #FFF;
+  }
+
+  .btn-next {
+    background-color: #FFF;
+    color: #000;
+    font-family: DM Sans;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    border-color: #D8D8D8;
+    cursor: pointer;
+  }
+
+  .btn-next:active {
+    background-color: #000;
+    color: #FFF;
+  }
+
+  /* main of end  style's*/
 
 
 
